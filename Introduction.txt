@@ -1,21 +1,9 @@
-项目初始化Git命令行
 
-Git全局设置
-git config --global user.name  "汤圣君"
-git config --global user.email "wx_fd53e577d1394d4583dd397703c8434f@git.code.tencent.com"
-
-创建一个新的版本库
-git clone https://git.code.tencent.com/tommytang/IndoorSegmentation.git
-cd IndoorSegmentation
-touch README.md
-git add README.md
-git commit -m "add README"
-git push -u origin master
-
-现有的文件夹或Git版本库
-cd existing_folder
-git init
-git remote add origin https://git.code.tencent.com/tommytang/IndoorSegmentation.git
-git add .
-git commit -m "init"
-git push -u origin master
+文件说明
+1、lecture1 包含第一次课PPT
+2、lecture2 包含第二次课ppt，数据，工具
+  a、数据为佛像数据
+  b、工具中cloudcompare用于点云数据可视化和处理。
+  c、工具中visualSFM用于多视图像重建，效果一般
+  d、工具中contexcapture用于多视图像重建，为商业软件，下载地址如下（包含安装包、破解包以及教程视频）：
+  链接：https://pan.baidu.com/s/1o9-Ay9KfVYBroiXH2qbnIg 提取码：ekwo
