@@ -1,0 +1,25 @@
+
+
+Git全局设置
+git config --global user.name  "汤圣君"
+git config --global user.email "wx_fd53e577d1394d4583dd397703c8434f@git.code.tencent.com"
+
+创建一个新的版本库
+git clone https://git.code.tencent.com/tommytang/IndoorSegmentation.git
+cd IndoorSegmentation
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+
+现有的文件夹或Git版本库
+cd existing_folder
+git init
+git remote add origin https://github.com/tangyuan1991/Citymodeling.git
+git add .
+git commit -m "init"
+git push -u origin master
+
+
+Git一个关于Push失败的两种解决方案
+https://www.jianshu.com/p/ea6ec80ad5f2
